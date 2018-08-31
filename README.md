@@ -1,2 +1,2 @@
 # achievementhound
-This is Web Application for Regis University - Department of Pharmacy 
+This is the Web Application for Regis University - Department of Pharmacy 
