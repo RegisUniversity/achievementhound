@@ -1,0 +1,25 @@
+
+Application Concept
+
+Kevin Pyatt
+Marta Brooks
+Saikat Mukhopadhyay
+
+
+Title: Achievement Hound
+
+Need: Faculty in the Department of Pharmacy Practice are experiencing a need to have faculty-specific data; like mission and service work, scholarship and teaching; to be stored in a database that can be later accessed to create reports, and bibliographies. Furthermore, there is a need for data analytics to be run on relevant faculty-specific data for the purposes of trend analysis and forecasting.
+
+Proposed Application: We propose to design and develop a database-driven web application where faculty and staff can create, read, update and delete relevant database fields associated with their work and achievements in the areas of scholarship, teaching, service and mission.
+
+The inputs for the application will be managed through a web page where faculty and staff have a dedicated account page with specific fields.
+
+Follow-up Tasks and Artifacts:
+
+1) Pharmacy faculty need to create a monthly report "template" which includes the fields and page elements envisioned in a typical monthly report. This template will be the basis for the "view" that is created for the application being built here.
+2) Pharmacy faculty need to provide samples of data types like what might be found in the mission section, or teaching section, or service section of a typical monthly report.
+3) 
+
+note. this application is not designed to facilitate a bibliographic management tool like Zotero, Endnote, Refworks, etc... 
+
+
