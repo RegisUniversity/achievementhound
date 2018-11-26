@@ -1,4 +1,6 @@
 <?php
-session_start();
-session_destroy();
+include 'classes/Session.php';
+//session_destroy();
+Session::destroy();
+
 ?>
