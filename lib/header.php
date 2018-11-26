@@ -26,6 +26,7 @@ $myDB = new DB();
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <style>
       .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav .navbar-right > li > a.active{
           background-color:#666666;font-size:larger;
@@ -55,12 +56,12 @@ $myDB = new DB();
            <?php
             if($_SESSION['user_email'])
             {?>
-            <li><a id="logOut" href="#" class="scrolling-link">Sign Out</a></li>
+            <li><a id="logOut" href="logout.php" class="scrolling-link">Sign Out</a></li>
             <?php }
             else {?>
                 <li><a href="signup.php" class="scrolling-link">Sign Up</a></li>
            <?php } ?>
-                
+          <li><a href="add_info.php">Add Information</a></li>      
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
           <?php
@@ -75,4 +76,4 @@ $myDB = new DB();
     <!--/.container-fluid -->
   </nav>
 </div>
-<script src="assets/js/header.js"></script>
+<!--script src="assets/js/header.js"></script-->
