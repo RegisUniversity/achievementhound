@@ -1,5 +1,5 @@
 <?php
-include 'classes/Session.php';
+//include 'classes/Session.php';
 include_once 'classes/Login.php';
 Session::checkLogin();
 $log = new Login();
