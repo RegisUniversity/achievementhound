@@ -31,9 +31,11 @@ class Session {
         if (self::get("login") == true) {
             header('Location: dashboard.php');
         }
+        
     }
 
     public static function destroy() {
+        self::init();
         session_destroy();
         header('Location: index.php');
     }
