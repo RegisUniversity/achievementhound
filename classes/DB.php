@@ -3,16 +3,16 @@
 class DB {
 
     public $link;
-    private $username = 'root';
-    private $password = 'root';
-    private $host = 'localhost';
-    private $database = 'achievementhound';
+    //private $username = 'root';
+    //private $password = 'root';
+    //private $host = 'localhost';
+    //private $database = 'achievementhound';
     
     
-    //private $username = 'bcec583cf2a9eb';
-    //private $password = '556823fa';
-    //private $host = 'us-cdbr-iron-east-01.cleardb.net';
-    //private $database = 'heroku_9c02dfdf768830b';
+    private $username = 'bcec583cf2a9eb';
+    private $password = '556823fa';
+    private $host = 'us-cdbr-iron-east-01.cleardb.net';
+    private $database = 'heroku_9c02dfdf768830b';
 
     function __construct() {
         $this->link = $this->connection();
